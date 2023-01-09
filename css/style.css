@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gochi Hand', cursive;
+}
+
+body{
+    background-image: url(../img/woodbackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paper{
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.done-task{
+    text-decoration: line-through;
+}
+
+li{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    margin: 5px;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 70px;
+}
