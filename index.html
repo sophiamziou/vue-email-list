@@ -24,7 +24,7 @@
                     <h1>MAIL LIST:</h1>
                     <div class="content p-4">
                         <ul class="p-0">
-                            <li class="my-2" v-for="(object, index) in arrayMail">
+                            <li class="my-2" v-for="(object, index) in arrayMail" v-if="arrayMail.length == 10">
                                 {{index + 1}} - {{arrayMail[index]}}
                             </li>
                         </ul>
